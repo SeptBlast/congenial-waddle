@@ -1,0 +1,41 @@
+{
+    "name": "@imdevesh/congenial-waddle",
+    "version": "1.0.1",
+    "description": "Brotli and GZIP compression tool for nodejs",
+    "keywords": [
+        "gzip",
+        "brotli",
+        "compression"
+    ],
+    "main": "index.js",
+    "type": "module",
+    "dependencies": {
+        "brotli": "^1.3.2",
+        "inherits": "^2.0.4",
+        "path": "^0.12.7",
+        "util": "^0.12.4",
+        "zlib": "^1.0.5",
+        "base64-js": "^1.5.1",
+        "process": "^0.11.10"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "debug": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SeptBlast/congenial-waddle.git"
+    },
+    "author": "Devesh Kumar",
+    "bugs": {
+        "url": "https://github.com/SeptBlast/congenial-waddle/issues"
+    },
+    "homepage": "https://github.com/SeptBlast/congenial-waddle#readme",
+    "engine": {
+        "node": ">=12.0.0",
+        "npm": ">=6.0.0"
+    }
+}
