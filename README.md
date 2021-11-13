@@ -18,8 +18,22 @@ var folderPath = "./html";
 compress.getCompressed(folderPath);
 ```
 
+#
+
 After the compression is done, the compressed files are stored in respective folders, name `./br/*` and `./gzip/*.`
 
 ---
 
-\*Note: There is no limitation on type of files, you can use this tool for .html, .css, .js, .png, .jpg, .jpeg, .pdf and many more.
+\***Note**: There is no limitation on type of files, you can use this tool for .html, .css, .js, .png, .jpg, .jpeg, .pdf and many more.
+
+### License
+
+[MIT License](./LICENSE.md)
+
+### Author
+
+[Imdevesh](https://github.com/SeptBlast)
+
+Package Url : [@SeptBlast/congenial-waddle](https://www.npmjs.com/package/@imdevesh/congenial-waddle)
+
+---
