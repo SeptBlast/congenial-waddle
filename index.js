@@ -1,8 +1,8 @@
 import { readdir, readFileSync } from "fs";
-import { compressBR, compressGZ, writeToFile } from "./compression.js";
+import { compressBR, compressGZ, writeToFile } from "./src/compression.js";
 
 const srcFolder = "./src";
-const brotliFolder = "./brotli/";
+const brotliFolder = "./br/";
 const gzipFolder = "./gzip/";
 
 /**
